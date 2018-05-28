@@ -16,7 +16,11 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
         main.cpp \
-    loadcaption.cpp
+    loadcaption.cpp \
+    hashsumcheker.cpp \
+    loader.cpp
 
 HEADERS += \
-    loadcaption.h
+    loadcaption.h \
+    hashsumcheker.h \
+    loader.h

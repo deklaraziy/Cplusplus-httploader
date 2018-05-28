@@ -7,6 +7,12 @@ class LoadCaption
 {
 public:
     LoadCaption();
+    ~LoadCaption();
+private:
+    QString FileName;
+    QUrl UrlFile;
+    QString HashSum;
+    QString HashType;
 };
 
 #endif // LOADCAPTION_H
